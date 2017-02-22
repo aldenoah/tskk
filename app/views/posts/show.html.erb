@@ -1,0 +1,14 @@
+<div class="container">
+<div class="row">
+  <div id="post_content" class="col-md-8">
+    <h1><%= @post.title %></h1>
+    <div id="subtext">
+      <%= link_to 'EDIT', edit_post_path(@post) %> | <%= link_to 'DELETE', @post, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+    <%= raw @post.body %>
+  </div>
+  <div class="col-md-4">
+    <%= link_to "+60 13 881 0882", root_path, class: "btn btn-lg btn-danger" %>
+  </div>
+</div>
+</div>

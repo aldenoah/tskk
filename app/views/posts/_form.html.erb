@@ -1,0 +1,24 @@
+<%= simple_form_for(@post) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-group">
+    <%= f.input :title, input_html: {class: "form-control"} %>
+  </div>
+  <br>
+  <div class="form-group">
+    <%= f.cktext_area :body, ckeditor: { uiColor: '#cecece' } %>
+  </div>
+  <br>
+  <div class="form-group">
+    <%= f.input :permalink, input_html: {class: "form-control"} %>
+  </div>
+  <div class="form-group">
+    <%= f.input :meta_title, input_html: {class: "form-control"} %>
+  </div>
+  <div class="form-group">
+    <%= f.input :meta_description, input_html: {class: "form-control"} %>
+  </div>
+  <div class="form-group">
+    <%= f.button :submit, class: "btn btn-danger" %>
+  </div>
+<% end %>

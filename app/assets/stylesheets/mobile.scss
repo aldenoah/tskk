@@ -1,0 +1,32 @@
+@media only screen and (max-width : 660px) {
+  .mobile-visible {
+      visibility: visible;
+      display: inline;
+  };
+
+  .desktop-visible {
+      visibility: hidden;
+      display: none;
+  };
+
+  #hero {
+      max-width: 100%;
+  }
+
+}
+
+@media only screen and (min-width : 661px) {
+  .mobile-visible {
+      visibility: hidden;
+      display: none;
+  };
+
+  .desktop-visible {
+      visibility: visible;
+      display: inline;
+  };
+
+  #hero {
+      max-width: 60%;
+  }
+}
