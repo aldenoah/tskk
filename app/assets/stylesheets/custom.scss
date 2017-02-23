@@ -1,3 +1,8 @@
+p {
+	font-size: 17px;
+	line-height: inherit;
+}
+
 .navbar {
     margin-bottom: 0;
     border: 1px solid transparent;
@@ -11,6 +16,18 @@
 .navbar-default .navbar-nav > li > a {
     color: #777;
     text-transform: uppercase;
+}
+
+.red {
+	color: #d9534f;
+}
+
+.subtitle {
+	text-transform: uppercase;
+	text-align: center;
+	h2 {
+	  font-weight: bold;
+	}
 }
 
 .jumbotron {
