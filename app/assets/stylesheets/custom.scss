@@ -7,6 +7,10 @@ p {
 	line-height: inherit;
 }
 
+.checkbox {
+    margin-left: 20px;
+}
+
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid #cecece;
@@ -81,6 +85,10 @@ p {
 	padding: 0 30px;
 }
 
+#blogfeed {
+  margin: 30px auto;
+}
+
 .contact {
 	background: image-url('car-breakdown.jpg');
 	padding: 48px 30px;
@@ -140,7 +148,7 @@ p {
 
 #post_content {
     h1 {
-	  color: #d9534f;
+	  color: #333;
     }
 	a {
 	  color: #d9534f;

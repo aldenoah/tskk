@@ -1,21 +1,23 @@
 <% title "Blog | Towing Service KK" %>
 <% noindex %>
 
-<div class="container">
+<div id="blogfeed" class="container">
 <div class="row">
   <div class="col-md-8">
   <% @posts.each do |post| %>
   <div class="post">
     <h2><%= link_to post.title, post %></h2>
+    <% if user_signed_in? %>
     <div id="subtext">
       <%= link_to 'EDIT', edit_post_path(post) %> | <%= link_to 'DELETE', post, method: :delete, data: { confirm: 'Are you sure?' } %>
     </div>
+    <% end %>
     <%= raw post.body.truncate_words(50) %>
   </div>
   <% end %>
   </div>
   <div class="col-md-4">
-    <%= link_to "+60 13 881 0882", root_path, class: "btn btn-lg btn-danger full-width" %>
+    <%= link_to "CALL US NOW", 'tel:+60138810882', class: "btn btn-lg btn-danger full-width" %>
   </div>
 </div>
 </div>
