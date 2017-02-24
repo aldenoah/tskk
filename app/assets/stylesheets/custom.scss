@@ -1,3 +1,7 @@
+html {
+	background: #333;
+}
+
 p {
 	font-size: 17px;
 	line-height: inherit;
@@ -5,7 +9,7 @@ p {
 
 .navbar {
     margin-bottom: 0;
-    border: 1px solid transparent;
+    border-bottom: 1px solid #cecece;
     border-radius: 0;
 }
 
@@ -104,6 +108,9 @@ p {
 
 .btn {
 	border-radius: 0;
+}
+
+.btn-lg {
 	padding: 15px;
 }
 
