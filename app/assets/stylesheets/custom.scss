@@ -9,12 +9,12 @@ p {
     border-radius: 0;
 }
 
-.navbar-brand {
-	color: #d9534f;
+.navbar-default .navbar-brand {
+    color: #333;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #777;
+    color: #333;
     text-transform: uppercase;
 }
 
@@ -99,7 +99,7 @@ p {
 	background-color: #333;
 	color: #777;
 	padding: 30px;
-	border-top: 1px solid #333;
+	border-top: 1px solid #222;
 }
 
 .btn {
