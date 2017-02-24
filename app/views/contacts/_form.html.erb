@@ -1,0 +1,21 @@
+<%= simple_form_for(@contact) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-group">
+    <%= f.input :name, required: true, input_html: {class: "form-control"} %>
+  </div>
+  <div class="form-group">
+    <%= f.input :email, required: true, input_html: {class: "form-control"} %>
+  </div>
+  <div class="form-group">
+    <%= f.input :phone, required: true, input_html: {class: "form-control"} %>
+  </div>
+  <br>
+  <div class="form-group">
+    <%= f.input :message, required: true, input_html: {rows: 5, class: "form-control"} %>
+  </div>
+  <hr>
+  <div class="form-group">
+    <%= f.button :submit, "Send Message", class: "btn btn-danger" %>
+  </div>
+<% end %>
