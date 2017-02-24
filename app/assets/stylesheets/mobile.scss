@@ -13,6 +13,10 @@
       max-width: 100%;
   }
 
+  #contact-hero {
+      max-width: 100%;
+  }
+
 }
 
 @media only screen and (min-width : 661px) {
@@ -27,6 +31,10 @@
   };
 
   #hero {
+      max-width: 60%;
+  }
+
+  #contact-hero {
       max-width: 60%;
   }
 }
