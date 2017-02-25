@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get "contact" => "contacts#new"
+  get "contact-us" => "contacts#new"
 
   resources :contacts
   get '*unmatched_route', to: 'application#raise_not_found'
