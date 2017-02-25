@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   get "contact-us" => "contacts#new"
+  get "sitemap.xml" => "sitemap#index", :format => "xml", :as => :sitemap
+  get '*unmatched_route', to: 'application#raise_not_found'
 
   resources :contacts
-  get '*unmatched_route', to: 'application#raise_not_found'
   #get "post" => 'posts#index'
-  get "sitemap.xml" => "sitemap#index", :format => "xml", :as => :sitemap
 
   resources :posts
   devise_for :users
