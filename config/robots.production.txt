@@ -10,5 +10,6 @@ User-Agent: *
 Allow: /
 Disallow: /*/edit
 Disallow: /users/
+Disallow: /contacts/
 Sitemap: http://towingservicekk.com/sitemap.xml
 
