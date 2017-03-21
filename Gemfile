@@ -22,6 +22,7 @@ gem 'cancancan', '~> 1.10.1'
 gem 'figaro'
 gem 'aws-sdk'
 gem 'coffee-script-source', '1.8.0'
+gem 'rack-rewrite'
 
 group :production do
 	gem 'rails_12factor'

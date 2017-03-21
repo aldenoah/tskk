@@ -1,6 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
+require "rack/rewrite"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -22,5 +23,11 @@ module Towingservicekk
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    config.middleware.insert_before(Rack::Runtime, Rack::Rewrite) do
+      r301 %r{.*}, "https://towingservicekk.com$&", :if => Proc.new { |rack_env|
+      rack_env['SERVER_NAME'].start_with?('www')}
+      r301 %r{^(.+)/$}, '$1'
+    end
   end
 end
