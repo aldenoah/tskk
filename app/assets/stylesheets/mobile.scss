@@ -20,6 +20,17 @@
       max-width: 970px;
   }
 
+  #subnav {
+    background: rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.5) inset;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.5) inset;
+    padding: 15px 0;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+  }
+
   #contact-hero {
       max-width: 100%;
   }
@@ -47,6 +58,17 @@
 
   #hero {
       max-width: 60%;
+  }
+
+  #subnav {
+    background: rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.5) inset;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.5) inset;
+    padding: 15px 0;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
   }
 
   #contact-hero {
