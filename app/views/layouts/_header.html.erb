@@ -7,10 +7,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" rel="canonical" href="https://towingservicekk.com"><b>TOWING <span style="color: #d9534f;">SERVICE</span> KK</b></a>
+      <div class="navbar-logo">
+      <%= link_to image_tag('towing-service-kk-logo.png'), "https://towingservicekk.com" %>
+      </div>
     </div>
     <div class="collapse navbar-collapse" id="menu-tab">
       <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "Contact us", contact_us_path %></li>
         <% if user_signed_in? %>
         <li>
@@ -30,3 +33,9 @@
     </div>
   </div>
 </nav>
+<div id="subnav">
+  <div class="container">
+    <i class="fa fa-phone fa-lg"></i> +60 13 881 0882
+    <span class="float-right"><i class="fa fa-facebook-official fa-lg"></i> towingservicekk</span>
+  </div>
+</div>

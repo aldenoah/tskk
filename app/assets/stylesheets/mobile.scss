@@ -9,8 +9,15 @@
       display: none;
   };
 
+  .navbar-logo {
+    padding: 15px;
+    img {
+      height: 40px;
+    }
+  }
+
   #hero {
-      max-width: 100%;
+      max-width: 970px;
   }
 
   #contact-hero {
@@ -29,6 +36,14 @@
       visibility: visible;
       display: inline;
   };
+
+  .navbar-logo {
+    padding: 15px 0;
+  }
+
+  .navbar-nav {
+    margin: 20px 0 0 0;
+  }
 
   #hero {
       max-width: 60%;
