@@ -9,6 +9,11 @@
       display: none;
   };
 
+  p {
+    font-size: 17px;
+    line-height: inherit;
+  }
+
   .navbar-logo {
     padding: 15px;
     img {
@@ -34,6 +39,51 @@
     }
   }
 
+  .jumbotron {
+    background: image-url('towing-service-kk-bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: 50%;
+    text-align: center;
+    color: #FFF;
+    h1 {
+      font-family: "PT Sans", sans-serif;
+      margin: 32px 0;
+      line-height: 1.15;
+    }
+    p {
+      font-family: "PT Sans", sans-serif;
+      line-height: inherit;
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+  }
+
+  #redbox {
+    background-color: #d9534f;
+    font-family: "PT Sans", sans-serif;
+    padding: 25px;
+    margin: 0 0 25px 0;
+    color: #FFF;
+    h2 {
+      text-transform: uppercase;
+      margin: 0 0 15px 0;
+    }
+  }
+
+  #blackbox {
+    background-color: #333;
+    padding: 25px;
+    margin: 0 0 25px 0;
+    color: #FFF;
+    h2 {
+      text-transform: uppercase;
+      margin: 0 0 15px 0;
+    }
+  }
+
   #contact-hero {
       max-width: 100%;
   }
@@ -50,6 +100,11 @@
       visibility: visible;
       display: inline;
   };
+
+  p {
+    font-size: 20px;
+    line-height: inherit;
+  }
 
   .navbar-logo {
     padding: 15px 0;
@@ -74,6 +129,53 @@
     border-bottom: 1px solid #333;
     a {
       color: #FFF;
+    }
+  }
+
+  .jumbotron {
+    background: image-url('towing-service-kk-bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: 50%;
+    text-align: center;
+    color: #FFF;
+    h1 {
+      font-family: "PT Sans", sans-serif;
+      margin: 32px 0;
+      line-height: 1.15;
+    }
+    p {
+      font-family: "PT Sans", sans-serif;
+      line-height: inherit;
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+  }
+
+  #redbox {
+    background-color: #d9534f;
+    font-family: "PT Sans", sans-serif;
+    padding: 25px;
+    margin: 0 0 25px 0;
+    color: #FFF;
+    min-height: 230px;
+    h2 {
+      text-transform: uppercase;
+      margin: 0 0 15px 0;
+    }
+  }
+
+  #blackbox {
+    background-color: #333;
+    padding: 25px;
+    margin: 0 0 25px 0;
+    color: #FFF;
+    min-height: 230px;
+    h2 {
+      text-transform: uppercase;
+      margin: 0 0 15px 0;
     }
   }
 
