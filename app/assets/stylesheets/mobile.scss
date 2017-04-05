@@ -10,7 +10,8 @@
   };
 
   p {
-    font-size: 17px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
     line-height: inherit;
   }
 
@@ -49,12 +50,10 @@
     text-align: center;
     color: #FFF;
     h1 {
-      font-family: "PT Sans", sans-serif;
       margin: 32px 0;
       line-height: 1.15;
     }
     p {
-      font-family: "PT Sans", sans-serif;
       line-height: inherit;
       font-size: 22px;
       margin-bottom: 30px;
@@ -63,7 +62,6 @@
 
   #redbox {
     background-color: #d9534f;
-    font-family: "PT Sans", sans-serif;
     padding: 25px;
     margin: 0 0 25px 0;
     color: #FFF;
@@ -102,8 +100,10 @@
   };
 
   p {
+    font-family: "PT Sans", sans-serif;
     font-size: 20px;
     line-height: inherit;
+    margin: 0 0 15px 0;
   }
 
   .navbar-logo {
@@ -142,12 +142,10 @@
     text-align: center;
     color: #FFF;
     h1 {
-      font-family: "PT Sans", sans-serif;
       margin: 32px 0;
       line-height: 1.15;
     }
     p {
-      font-family: "PT Sans", sans-serif;
       line-height: inherit;
       font-size: 26px;
       margin-bottom: 30px;
@@ -156,11 +154,10 @@
 
   #redbox {
     background-color: #d9534f;
-    font-family: "PT Sans", sans-serif;
     padding: 25px;
     margin: 0 0 25px 0;
     color: #FFF;
-    min-height: 230px;
+    min-height: 200px;
     h2 {
       text-transform: uppercase;
       margin: 0 0 15px 0;
@@ -172,7 +169,7 @@
     padding: 25px;
     margin: 0 0 25px 0;
     color: #FFF;
-    min-height: 230px;
+    min-height: 200px;
     h2 {
       text-transform: uppercase;
       margin: 0 0 15px 0;
