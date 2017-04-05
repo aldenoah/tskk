@@ -51,17 +51,20 @@
     color: #FFF;
     h1 {
       font-family: "PT Sans", sans-serif;
+      -webkit-text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
       text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
       margin: 32px 0;
       line-height: 1.15;
     }
     p {
       line-height: inherit;
+      -webkit-text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
       text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
       font-size: 22px;
       margin-bottom: 30px;
     }
     .btn-danger {
+      -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
       box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
       margin-bottom: 30px;
     }
@@ -93,8 +96,18 @@
 
   #testimonialbox {
     background-color: #FFF;
+    color: #333;
     margin: 0 0 30px 0;
-    min-height: 300px;
+    padding: 30px;
+    -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    h4 {
+      color: #d9534f;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.25;
+      margin: 0 0 15px 0;
+    }
   }
 
   #contact-hero {
@@ -158,17 +171,20 @@
     color: #FFF;
     h1 {
       font-family: "PT Sans", sans-serif;
+      -webkit-text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
       text-shadow: 1px 1px 8px rgba(0,0,0,0.7);
       margin: 32px 0;
       line-height: 1.15;
     }
     p {
+      -webkit-text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
       text-shadow: 1px 1px 8px rgba(0,0,0,0.7);
       line-height: inherit;
       font-size: 26px;
       margin-bottom: 30px;
     }
     .btn-danger {
+      -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
       box-shadow: 1px 1px 8px rgba(0,0,0,0.7);
       margin-bottom: 30px;
     }
@@ -203,7 +219,19 @@
   #testimonialbox {
     background-color: #FFF;
     margin: 30px 0;
-    min-height: 300px;
+    padding: 30px;
+    -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    h4 {
+      color: #d9534f;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.25;
+      margin: 0 0 15px 0;
+    }
+    p {
+      font-size: 16px;
+    }
   }
 
   #contact-hero {
