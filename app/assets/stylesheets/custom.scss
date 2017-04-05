@@ -7,6 +7,10 @@ html {
 	background: #333;
 }
 
+body {
+	font-family: "PT Sans", sans-serif;
+}
+
 
 
 .checkbox {
@@ -71,7 +75,7 @@ html {
 	  text-transform: uppercase;
 	  font-weight: bold;
 	  margin: 25px 0;
-	  line-height: inherit;
+	  line-height: 1.25;
 	}
 }
 
