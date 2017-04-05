@@ -104,8 +104,6 @@ body {
 	}
 }
 
-
-
 #blogfeed {
   margin: 30px auto;
 }
@@ -124,8 +122,12 @@ body {
 	background-position-x: 50%;
 	h3 {
        font-size: 40px;
+       text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
        margin: 30px auto;
        text-transform: uppercase;
+	}
+	.btn-danger {
+	  box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 	}
 }
 
