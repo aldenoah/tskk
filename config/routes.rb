@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "privacy-policy" => "welcome#privacy_policy"
   get "contact-us" => "contacts#new"
   get "sitemap.xml" => "sitemap#index", :format => "xml", :as => :sitemap
 

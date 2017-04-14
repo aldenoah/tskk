@@ -107,6 +107,7 @@ hr {
 	}
 }
 
+
 #blogfeed {
   margin: 30px auto;
 }
@@ -140,6 +141,16 @@ hr {
 	color: #777;
 	padding: 30px;
 	border-top: 1px solid #222;
+	p {
+	    font-family: "PT Sans", sans-serif;
+	    font-size: 16px;
+	    line-height: 1.5;
+	    margin: 0 0 5px 0;
+	}
+	a {
+	  color: #FFF;
+	  text-transform: uppercase;
+	}
 }
 
 .btn {
@@ -153,6 +164,8 @@ hr {
 
 .full-width {
 	width: 100%;
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+	    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 .post {
