@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require google_analytics
 //= require bootstrap-sprockets
 //= require ckeditor/init
 //= require_tree .
