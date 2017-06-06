@@ -9,4 +9,7 @@ class WelcomeController < ApplicationController
   def privacy_policy
   end
 
+  def payment
+  end
+
 end

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "payment" => "welcome#payment"
   get "about" => "welcome#about"
   get "privacy-policy" => "welcome#privacy_policy"
   get "contact-us" => "contacts#new"
